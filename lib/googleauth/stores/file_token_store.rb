@@ -28,7 +28,7 @@
 # OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 require 'yaml/store'
-require 'googleauth/token_store'
+require_relative '../token_store'
 
 module Google
   module Auth

@@ -30,13 +30,13 @@
 require 'multi_json'
 require 'stringio'
 
-require 'googleauth/credentials_loader'
-require 'googleauth/compute_engine'
-require 'googleauth/service_account'
-require 'googleauth/user_refresh'
-require 'googleauth/client_id'
-require 'googleauth/user_authorizer'
-require 'googleauth/web_user_authorizer'
+require_relative 'googleauth/credentials_loader'
+require_relative 'googleauth/compute_engine'
+require_relative 'googleauth/service_account'
+require_relative 'googleauth/user_refresh'
+require_relative 'googleauth/client_id'
+require_relative 'googleauth/user_authorizer'
+require_relative 'googleauth/web_user_authorizer'
 
 module Google
   # Module Auth provides classes that provide Google-specific authorization

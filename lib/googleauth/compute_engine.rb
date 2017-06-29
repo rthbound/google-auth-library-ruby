@@ -28,7 +28,7 @@
 # OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 require 'faraday'
-require 'googleauth/signet'
+require_relative 'signet'
 require 'memoist'
 
 module Google
